@@ -1,2 +1,4 @@
 # WebTasar-m
-WebTasarım Odevi
+Enes Özbuğanlı
+B211210082
+Saü Web Tasarım Ödevi
