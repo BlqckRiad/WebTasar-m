@@ -1,0 +1,36 @@
+SAÜ WEB TEKNOLOJİLERİ PROJE ÖDEVİ
+
+
+Enes Özbuğanlı
+B211210082
+GİTHUB LİNKİ :https://github.com/BlqckRiad/WebTasar-m
+
+PROJE AMACI
+-Kendimi ve şehrimi tanıtan bir web sitesi yapmak.
+
+PROJE İÇERİĞİ
+
+-Hakkında Sayfasında;
+ *Diğer Sayfalara Ulaşmak.
+ *Kendimden bahsetmek.
+
+-Özgeçmiş Sayfasında;
+ *Eğitim hayatımdan bahsetmek.
+
+-Şehrim Sayfasında;
+ *Şehrim ile ilgili bilgilendirici yazılar yazılacak.
+ * En az 4 mekana ait fotoğraf sliderı yapılacak.
+
+-Mirasımız sayfasında;
+ * Şehirdeki kültürel bir yerin tanıtılması.
+
+-İlgi alanım sayfasında;
+ * İlgi alanımla alakalı bir veri internetden apı ile çekilip sitemde gösterilecek.
+
+-İletişim sayfasında;
+ *Form elemanları kullanılacak.
+ *Kontroller javascript ile yapılacak.
+ *Gönderilen formlar başka sayfada görüntülenecek.
+-Login sayfasında;
+ * Kullanıcıdan e-posta ve şifre istenicek girilen şifre doğru ise hoşgeldiniz yazıp 
+ * hakkında sayfasına gönderilecek.Aksi durumda tekrardan login sayfasına gidicek.
