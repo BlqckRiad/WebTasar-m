@@ -1,0 +1,136 @@
+	/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, textarea, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+a img, :link img, :visited img {
+border: 0;
+}
+
+:focus {
+    outline: 0;
+}
+.clear {
+    clear: both;
+}
+body {
+    margin: 0;
+}
+ 
+#content{
+    margin-top:70px;
+    height:100%;
+}
+ 
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #4fb99f;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+ 
+ul li {
+    float: left;
+    border-bottom: 3px solid #4fb99f;
+}
+ 
+ul li.menu-right {
+    float: right;
+}
+ 
+ul li a {
+    display: inline-block;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+ 
+ul li.active {
+    background-color: #068587;
+    border-bottom: 3px solid #f2b134;
+}
+ 
+ul li:hover:not(.active) {
+    background-color: #068587;
+    border-bottom: 3px solid #f2b134;
+}
+
+.a{
+	float: left;
+	border: solid;
+	border-radius: 20px;
+	width: 436px;
+	padding: 10px;
+	margin: 30px 0 0 100px;
+	border-color: darkblue;
+
+}
+.b{
+	margin: 30px 100px 40px 600px;
+	border: solid;
+	border-radius: 20px;
+	padding: 10px;
+	border-color: darkblue;
+}
+.c{
+	margin: 30px auto;
+	width: 40%;
+	height: 30%;
+	border: 3px darkblue solid;
+	border-radius: 20px;
+	background-color: #4fb99f;
+}
+.x{
+
+			margin: 0;
+			padding: 0;
+			background: url("images/2.jpg");
+              -webkit-background-size: cover;
+            background-size: cover;
+		
+}
