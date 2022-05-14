@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+.ana{
+	margin: 0 0 0 70px;
+	padding:10px;
+	width: 90%;
+	border: solid;
+	border-radius: 20px; 
+	border-color: darkblue;
+	
+}
+.anasol{
+	float:left;
+}
+.anasag{
+	float:right;
+}
+.kolon{
+	margin: 0 0 0 70px;
+	padding:10px;
+	text-align: center;
+	width: 90%;
+	height: 30%;
+	border: solid;
+	border-radius: 20px; 
+	border-color: darkblue;
+	background-color: #068587;
+}
