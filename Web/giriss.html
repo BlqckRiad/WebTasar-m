@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Başlıksız Belge</title>
+	<style>
+	 
+		body {
+			margin: 0;
+			padding: 0;
+			background: url(kars2.jpg);
+              -webkit-background-size: cover;
+            background-size: cover;
+		}
+		.box{
+			width: 300px;
+			padding: 40px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			background: #191919;
+			text-align: center;
+		}
+		.box h2 {
+			color: white;
+			text-transform: uppercase;
+			font-weight: 500;
+		}
+	.box input[type = "email"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+		.box input[type="submit"]
+		{
+			border: 0;
+			background: none;
+			display: block;
+			margin: 20px auto;
+			text-align: center;
+			border: 2px solid red;
+			padding: 14px 40px;
+			outline: none;
+			color: white;
+			border-radius: 24px;
+			transition: 0.25s;
+			cursor: pointer;
+		}
+		.box input[type="submit"]:hover{
+			background: #2ecc71;
+		}
+		.box input[type="password"]:hover{
+			background: #2ecc71;
+		}
+		.box input[type="email"]:hover{
+			background: #2ecc71;
+		}
+				.box input[type="reset"]
+		{
+			border: 0;
+			background: none;
+			display: block;
+			margin: 20px auto;
+			text-align: center;
+			border: 2px solid red;
+			padding: 14px 40px;
+			outline: none;
+			color: white;
+			border-radius: 24px;
+			transition: 0.25s;
+			cursor: pointer;
+		}
+		.box input[type="reset"]:hover{
+			background: #2ecc71;
+		}
+	</style>
+	
+</head>
+<body>
+<form class="box" method = "POST" action = "login.php">
+	<h2>Giris Yap / Kayıt Ol</h2>
+	<input type="email" name="email" placeholder="E-Mail Giriniz" required> 
+	<input type="password" name="pd" placeholder="Sifre Giriniz" required> 
+	<input type="submit" value="Giris Yap">
+	<input type="reset" value = "Kayıt Ol">
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url("../images/arkaplan.jpg");
+}
+.anablok{
+	border: solid;
+	border-radius: 20px;
+	width: 70%;
+	height: 70%;
+	padding: 10px;
+	margin: auto auto;
+	border-color: darkblue;
+	background-color: #4fb99f;
+}
+.egitim{
+	text-align: center;
+	margin:auto;
+	padding : 10px;
+}
